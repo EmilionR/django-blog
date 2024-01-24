@@ -1,3 +1,1 @@
-web: gunicorn codestar.wsgi:application --log-file -
-python manage.py collectstatic --noinput
-manage.py migrate
+web: gunicorn codestar.wsgi
